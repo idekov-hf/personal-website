@@ -1,7 +1,14 @@
+#header {
+    text-align: center;
+}
+
+#navigation {
+    border: 1px solid black;
+    text-align: center;
+}
+
 #navigation ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 #navigation li {
@@ -36,5 +43,11 @@
 
 #content {
 	clear: both;
+    margin: auto;
+    width: 75%;
+    border: 1px solid black;
 }
 
+#content h2 {
+    text-align: center;
+}
