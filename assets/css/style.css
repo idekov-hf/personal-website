@@ -1,7 +1,6 @@
 body {
 	font: 20px "Montserrat", sans-serif;
 	line-height: 1.8;
-	/*color: #f5f6f7;*/
 }
 
 p {
@@ -13,8 +12,11 @@ p.padded-text {
 	padding-right: 50px;
 }
 
+.margin {
+	margin-bottom: 40px;
+}
+
 .bg-1 {
-	/*background-color: #1abc9c; */ /* Green */
 	background-color: #43749A;
 	color: #ffffff;
 }
