@@ -1,55 +1,72 @@
 body {
-	font: 20px "Montserrat", sans-serif;
-	line-height: 1.8;
+  font: 20px "Montserrat", sans-serif;
+  line-height: 1.8;
 }
 
 p {
-	font-size: 16px;
-}
-
-p.padded-text {
-	padding-left: 50px;
-	padding-right: 50px;
+  font-size: 16px;
 }
 
 .margin {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .bg-1 {
-	background-color: #43749A;
-	color: #ffffff;
+  background-color: #43749a;
+  color: #ffffff;
 }
 .bg-2 {
-	background-color: #474e5d; /* Dark Blue */
-	color: #ffffff;
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
 }
 .bg-3 {
-	background-color: #ffffff; /* White */
-	color: #555555;
+  background-color: #ffffff; /* White */
+  color: #555555;
 }
 
 .container-fluid {
-	padding-top: 70px;
-	padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .navbar {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border: 0;
-	border-radius: 0;
-	margin-bottom: 0;
-	font-size: 12px;
-	letter-spacing: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
 
 .navbar-nav li a:hover {
-	color: #43749A !important;
+  color: #43749a !important;
 }
 
 .navbar-brand small {
-	display:block;
-	font-size:14px;
+  display: block;
+  font-size: 14px;
 }
 
+.about-me-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.about-me-text-container {
+  display: inline-block;
+  width: 70%;
+}
+
+.about-me-img-container {
+  display: inline-block;
+  width: 200px;
+}
+
+.about-me-img {
+  width: 100%;
+  border-radius: 50%;
+}
