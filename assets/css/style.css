@@ -70,3 +70,10 @@ p {
   width: 100%;
   border-radius: 50%;
 }
+
+.project img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+  width: 75%;
+}
